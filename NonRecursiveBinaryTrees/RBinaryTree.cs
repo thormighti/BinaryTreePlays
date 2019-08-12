@@ -245,7 +245,7 @@ namespace NonRecursiveBinaryTrees
             while(Q.Count != 0)
             {
                 rootNode = Q.Dequeue();
-                if((rootNode.Left != null) && (rootNode.Right != null))
+                if((rootNode.Left == null) && (rootNode.Right == null))
                 {
                     leaveCount++;
                 }

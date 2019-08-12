@@ -45,7 +45,7 @@ namespace NonRecursiveBinaryTrees
             Console.WriteLine();
             Console.WriteLine();
             Console.WriteLine(" leave number of Binary trees");
-            Console.WriteLine(tree.numberOfLeaves(tree.Root.Left));
+            Console.WriteLine(tree.numberOfLeaves(tree.Root));
             Console.ReadKey();
         }
     }
